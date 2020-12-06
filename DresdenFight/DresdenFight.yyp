@@ -113,6 +113,7 @@
     {"folderPath":"folders/Objects/Character Select/Icons.yy","order":6,"resourceVersion":"1.0","name":"Icons","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Tilesets.yy","order":14,"resourceVersion":"1.0","name":"Tilesets","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Gameplay.yy","order":4,"resourceVersion":"1.0","name":"Gameplay","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/UI Gameplay.yy","order":15,"resourceVersion":"1.0","name":"UI Gameplay","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
