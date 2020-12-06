@@ -94,15 +94,7 @@ if (!place_meeting(x,y+1,oWall))
 		case 0:
 			sprite_index = sBitMan1Jump;
 			break;
-		case 1:
-			sprite_index = sBitMan2Jump;
-			break;
-		case 2:
-			sprite_index = sBitMan3Jump;
-			break;
-		case 3:
-			sprite_index = sBitMan4Jump;
-			break;
+
 	}
 	image_speed = 0;	
 	if (sign(vsp) > 0) image_index = 1; else image_index = 0;
@@ -117,15 +109,7 @@ if (!place_meeting(x,y+1,oWall))
 				case 0:
 					sprite_index = sBitMan1Idle;
 					break;
-				case 1:
-					sprite_index = sBitMan2Idle;
-					break;
-				case 2:
-					sprite_index = sBitMan3Idle;
-					break;
-				case 3:
-					sprite_index = sBitMan4Idle;
-					break;
+
 			}
 		}
 		else
@@ -134,15 +118,6 @@ if (!place_meeting(x,y+1,oWall))
 			{
 				case 0:
 					sprite_index = sBitMan1Run;
-					break;
-				case 1:
-					sprite_index = sBitMan2Run;
-					break;
-				case 2:
-					sprite_index = sBitMan3Run;
-					break;
-				case 3:
-					sprite_index = sBitMan4Run;
 					break;
 			}
 		}
