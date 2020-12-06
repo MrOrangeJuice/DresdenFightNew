@@ -58,6 +58,7 @@
     {"id":{"name":"sp3Select","path":"sprites/sp3Select/sp3Select.yy",},"order":2,},
     {"id":{"name":"rTitle","path":"rooms/rTitle/rTitle.yy",},"order":1,},
     {"id":{"name":"oRandomIcon","path":"objects/oRandomIcon/oRandomIcon.yy",},"order":1,},
+    {"id":{"name":"Sprite42","path":"sprites/Sprite42/Sprite42.yy",},"order":2,},
     {"id":{"name":"sRandomIcon","path":"sprites/sRandomIcon/sRandomIcon.yy",},"order":1,},
     {"id":{"name":"sp4Select","path":"sprites/sp4Select/sp4Select.yy",},"order":3,},
     {"id":{"name":"sp5Background","path":"sprites/sp5Background/sp5Background.yy",},"order":12,},
