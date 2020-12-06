@@ -4,7 +4,7 @@ switch(other.player)
 	case 0:
 		if(other.player == player)
 		{
-				
+
 		}
 		break;
 	case 1:
