@@ -83,11 +83,11 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rTitle","path":"rooms/rTitle/rTitle.yy",},},
+    {"roomId":{"name":"rCharSelect","path":"rooms/rCharSelect/rCharSelect.yy",},},
     {"roomId":{"name":"rCityBuilding","path":"rooms/rCityBuilding/rCityBuilding.yy",},},
     {"roomId":{"name":"rCastle","path":"rooms/rCastle/rCastle.yy",},},
     {"roomId":{"name":"rNeverNever","path":"rooms/rNeverNever/rNeverNever.yy",},},
-    {"roomId":{"name":"rTitle","path":"rooms/rTitle/rTitle.yy",},},
-    {"roomId":{"name":"rCharSelect","path":"rooms/rCharSelect/rCharSelect.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
