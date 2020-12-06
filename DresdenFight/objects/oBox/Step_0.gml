@@ -40,11 +40,6 @@ if(!keyboard)
 	
 	if(gamepad_button_check_pressed(player,gp_face2) && playerSpawned)
 	{
-		instance_destroy(newSelect);
-		instance_destroy(newIcon);
-		instance_destroy(newFade);
-		instance_destroy(newChar);
-		instance_destroy(newCharOverlay);
 		switch(player)
 		{
 			case 0:
@@ -52,11 +47,31 @@ if(!keyboard)
 				{
 					global.p1charConfirm = false;
 				}
+				else
+				{
+					instance_destroy(newSelect);
+					instance_destroy(newIcon);
+					instance_destroy(newFade);
+					instance_destroy(newChar);
+					instance_destroy(newCharOverlay);	
+					sprite_index = spBox;
+					playerSpawned = false;
+				}
 				break;
 			case 1:
 				if(global.p2charConfirm)
 				{
 					global.p2charConfirm = false;
+				}
+				else
+				{
+					instance_destroy(newSelect);
+					instance_destroy(newIcon);
+					instance_destroy(newFade);
+					instance_destroy(newChar);
+					instance_destroy(newCharOverlay);	
+					sprite_index = spBox;
+					playerSpawned = false;
 				}
 				break;
 			case 2:
@@ -64,16 +79,34 @@ if(!keyboard)
 				{
 					global.p3charConfirm = false;
 				}
+				else
+				{
+					instance_destroy(newSelect);
+					instance_destroy(newIcon);
+					instance_destroy(newFade);
+					instance_destroy(newChar);
+					instance_destroy(newCharOverlay);	
+					sprite_index = spBox;
+					playerSpawned = false;
+				}
 				break;
 			case 3:
 				if(global.p4charConfirm)
 				{
 					global.p5charConfirm = false;
 				}
+				else
+				{
+					instance_destroy(newSelect);
+					instance_destroy(newIcon);
+					instance_destroy(newFade);
+					instance_destroy(newChar);
+					instance_destroy(newCharOverlay);	
+					sprite_index = spBox;
+					playerSpawned = false;
+				}
 				break;
 		}
-		sprite_index = spBox;
-		playerSpawned = false;
 	}
 }
 else
@@ -101,16 +134,19 @@ else
 	}
 	if(keyboard_check_pressed(ord("O")) && playerSpawned)
 	{
-		instance_destroy(newSelect);
-		instance_destroy(newIcon);
-		instance_destroy(newFade);
-		instance_destroy(newChar);
-		instance_destroy(newCharOverlay);
 		if(global.p5charConfirm)
 		{
 			global.p5charConfirm = false;	
 		}
-		sprite_index = spBoxKB;
-		playerSpawned = false;
+		else
+		{
+			instance_destroy(newSelect);
+			instance_destroy(newIcon);
+			instance_destroy(newFade);
+			instance_destroy(newChar);
+			instance_destroy(newCharOverlay);
+			sprite_index = spBoxKB;
+			playerSpawned = false;
+		}
 	}
 }
