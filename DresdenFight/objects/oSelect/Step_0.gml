@@ -23,7 +23,7 @@ if(place_meeting(x,y,oHarryIcon))
 		case 0:
 			if(!global.p1charConfirm)
 			{
-				global.p1char = "Harry1";
+				global.p1char = "Harry";
 				if(gamepad_button_check_pressed(player,gp_face1))
 				{
 					global.p1charConfirm = true;
@@ -33,7 +33,7 @@ if(place_meeting(x,y,oHarryIcon))
 		case 1:
 			if(!global.p2charConfirm)
 			{
-				global.p2char = "Harry1";
+				global.p2char = "Harry";
 				if(gamepad_button_check_pressed(player,gp_face1))
 				{
 					global.p2charConfirm = true;
@@ -43,7 +43,7 @@ if(place_meeting(x,y,oHarryIcon))
 		case 2:
 			if(!global.p3charConfirm)
 			{
-				global.p3char = "Harry1";
+				global.p3char = "Harry";
 				if(gamepad_button_check_pressed(player,gp_face1))
 				{
 					global.p3charConfirm = true;
@@ -53,7 +53,7 @@ if(place_meeting(x,y,oHarryIcon))
 		case 3:
 			if(!global.p4charConfirm)
 			{
-				global.p4char = "Harry1";
+				global.p4char = "Harry";
 				if(gamepad_button_check_pressed(player,gp_face1))
 				{
 					global.p4charConfirm = true;
@@ -63,7 +63,7 @@ if(place_meeting(x,y,oHarryIcon))
 		case 4:
 			if(!global.p5charConfirm)
 			{
-				global.p5char = "Harry1";
+				global.p5char = "Harry";
 				if(keyboard_check_pressed(ord("P")))
 				{
 					global.p5charConfirm = true;

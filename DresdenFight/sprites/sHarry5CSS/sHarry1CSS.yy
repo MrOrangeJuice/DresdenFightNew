@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 78,
-  "bbox_right": 147,
-  "bbox_top": 11,
-  "bbox_bottom": 167,
+  "bbox_left": 0,
+  "bbox_right": 223,
+  "bbox_top": 0,
+  "bbox_bottom": 187,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a5ae3419-e3d2-433b-9615-d2c5b9b0ea00","path":"sprites/sHarry4CSS/sHarry4CSS.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a5ae3419-e3d2-433b-9615-d2c5b9b0ea00","path":"sprites/sHarry4CSS/sHarry4CSS.yy",},"LayerId":{"name":"70ff9862-1c8d-43d9-9c16-019b35055c2d","path":"sprites/sHarry4CSS/sHarry4CSS.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sHarry4CSS","path":"sprites/sHarry4CSS/sHarry4CSS.yy",},"resourceVersion":"1.0","name":"a5ae3419-e3d2-433b-9615-d2c5b9b0ea00","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a5ae3419-e3d2-433b-9615-d2c5b9b0ea00","path":"sprites/sHarry1CSS/sHarry1CSS.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a5ae3419-e3d2-433b-9615-d2c5b9b0ea00","path":"sprites/sHarry1CSS/sHarry1CSS.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"a5ae3419-e3d2-433b-9615-d2c5b9b0ea00","path":"sprites/sHarry1CSS/sHarry1CSS.yy",},"LayerId":{"name":"431dcda4-e572-4ad9-ab82-81c33df7fef2","path":"sprites/sHarry1CSS/sHarry1CSS.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"a5ae3419-e3d2-433b-9615-d2c5b9b0ea00","path":"sprites/sHarry1CSS/sHarry1CSS.yy",},"LayerId":{"name":"70ff9862-1c8d-43d9-9c16-019b35055c2d","path":"sprites/sHarry1CSS/sHarry1CSS.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sHarry1CSS","path":"sprites/sHarry1CSS/sHarry1CSS.yy",},"resourceVersion":"1.0","name":"a5ae3419-e3d2-433b-9615-d2c5b9b0ea00","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sHarry4CSS","path":"sprites/sHarry4CSS/sHarry4CSS.yy",},
+    "spriteId": {"name":"sHarry1CSS","path":"sprites/sHarry1CSS/sHarry1CSS.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 15.0,
@@ -41,7 +43,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"cb735154-541e-4395-ac7f-3e4429b256b3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a5ae3419-e3d2-433b-9615-d2c5b9b0ea00","path":"sprites/sHarry4CSS/sHarry4CSS.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5af4a593-6a91-405d-8ab5-bfa1e628eb7e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a5ae3419-e3d2-433b-9615-d2c5b9b0ea00","path":"sprites/sHarry1CSS/sHarry1CSS.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,9 +60,9 @@
     "yorigin": 94,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sHarry4CSS","path":"sprites/sHarry4CSS/sHarry4CSS.yy",},
+    "parent": {"name":"sHarry1CSS","path":"sprites/sHarry1CSS/sHarry1CSS.yy",},
     "resourceVersion": "1.3",
-    "name": "sHarry4CSS",
+    "name": "sHarry1CSS",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -72,7 +74,7 @@
     "path": "folders/Sprites/Character Select Portraits.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sHarry4CSS",
+  "name": "sHarry1CSS",
   "tags": [],
   "resourceType": "GMSprite",
 }
