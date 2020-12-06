@@ -33,6 +33,7 @@
     {"id":{"name":"sHarryIcon","path":"sprites/sHarryIcon/sHarryIcon.yy",},"order":0,},
     {"id":{"name":"oSelect","path":"objects/oSelect/oSelect.yy",},"order":0,},
     {"id":{"name":"roguelikeCity_transparent","path":"sprites/roguelikeCity_transparent/roguelikeCity_transparent.yy",},"order":0,},
+    {"id":{"name":"sHarry5CSS","path":"sprites/sHarry5CSS/sHarry5CSS.yy",},"order":13,},
     {"id":{"name":"rCastle","path":"rooms/rCastle/rCastle.yy",},"order":4,},
     {"id":{"name":"spkb","path":"sprites/spkb/spkb.yy",},"order":10,},
     {"id":{"name":"oChicagoIcon","path":"objects/oChicagoIcon/oChicagoIcon.yy",},"order":0,},
