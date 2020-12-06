@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sBitMan1Idle",
+    "path": "sprites/sBitMan1Idle/sBitMan1Idle.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
