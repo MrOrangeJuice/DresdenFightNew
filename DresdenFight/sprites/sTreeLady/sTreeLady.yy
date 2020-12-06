@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 3599,
+  "bbox_left": 52,
+  "bbox_right": 367,
   "bbox_top": 0,
-  "bbox_bottom": 2399,
+  "bbox_bottom": 255,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 3600,
-  "height": 2400,
+  "width": 384,
+  "height": 256,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5ba588a3-b18f-4f4b-8858-afe3958875c5","path":"sprites/Background/Background.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5ba588a3-b18f-4f4b-8858-afe3958875c5","path":"sprites/Background/Background.yy",},"LayerId":{"name":"47770a8e-f97e-42e4-809f-957db8877181","path":"sprites/Background/Background.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Background","path":"sprites/Background/Background.yy",},"resourceVersion":"1.0","name":"5ba588a3-b18f-4f4b-8858-afe3958875c5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8ae47a87-488d-4b03-8af8-2a502ce8a83f","path":"sprites/sTreeLady/sTreeLady.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8ae47a87-488d-4b03-8af8-2a502ce8a83f","path":"sprites/sTreeLady/sTreeLady.yy",},"LayerId":{"name":"1ad65fb6-6330-44a7-abcf-6f9eb4e5f190","path":"sprites/sTreeLady/sTreeLady.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sTreeLady","path":"sprites/sTreeLady/sTreeLady.yy",},"resourceVersion":"1.0","name":"8ae47a87-488d-4b03-8af8-2a502ce8a83f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Background","path":"sprites/Background/Background.yy",},
+    "spriteId": {"name":"sTreeLady","path":"sprites/sTreeLady/sTreeLady.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"174109a8-631f-4365-a610-b6cd2537018a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5ba588a3-b18f-4f4b-8858-afe3958875c5","path":"sprites/Background/Background.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6f58b25e-448d-431f-b41f-f078e4ff6953","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8ae47a87-488d-4b03-8af8-2a502ce8a83f","path":"sprites/sTreeLady/sTreeLady.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Background","path":"sprites/Background/Background.yy",},
+    "parent": {"name":"sTreeLady","path":"sprites/sTreeLady/sTreeLady.yy",},
     "resourceVersion": "1.3",
-    "name": "Background",
+    "name": "sTreeLady",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"47770a8e-f97e-42e4-809f-957db8877181","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1ad65fb6-6330-44a7-abcf-6f9eb4e5f190","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Tilesets",
     "path": "folders/Sprites/Tilesets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Background",
+  "name": "sTreeLady",
   "tags": [],
   "resourceType": "GMSprite",
 }
