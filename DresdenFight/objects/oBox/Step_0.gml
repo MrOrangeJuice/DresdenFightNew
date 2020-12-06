@@ -93,7 +93,7 @@ if(!keyboard)
 			case 3:
 				if(global.p4charConfirm)
 				{
-					global.p5charConfirm = false;
+					global.p4charConfirm = false;
 				}
 				else
 				{

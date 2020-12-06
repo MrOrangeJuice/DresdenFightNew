@@ -1,6 +1,6 @@
 /// @description Hover Animation
 
-if(place_meeting(x,y,oSelect))
+if(place_meeting(x,y,oSelect) || place_meeting(x,y,oSelectLevel))
 {
 	image_index = 1;
 }
