@@ -67,6 +67,7 @@
     {"id":{"name":"spBox","path":"sprites/spBox/spBox.yy",},"order":1,},
     {"id":{"name":"oStart","path":"objects/oStart/oStart.yy",},"order":2,},
     {"id":{"name":"sp4","path":"sprites/sp4/sp4.yy",},"order":8,},
+    {"id":{"name":"sHarryIdle","path":"sprites/sHarryIdle/sHarryIdle.yy",},"order":3,},
     {"id":{"name":"BulletSprite","path":"sprites/BulletSprite/BulletSprite.yy",},"order":16,},
     {"id":{"name":"rCharSelect","path":"rooms/rCharSelect/rCharSelect.yy",},"order":0,},
   ],
