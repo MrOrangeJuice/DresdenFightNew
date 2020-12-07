@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sBitMan1Idle",
-    "path": "sprites/sBitMan1Idle/sBitMan1Idle.yy",
+    "name": "sHarryIdle",
+    "path": "sprites/sHarryIdle/sHarryIdle.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,8 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"CTR1Char","path":"objects/CTR1Char/CTR1Char.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"CTR1Char","path":"objects/CTR1Char/CTR1Char.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oHarry","path":"objects/oHarry/oHarry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oHarry","path":"objects/oHarry/oHarry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":1,"value":"100","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"health","tags":[],"resourceType":"GMObjectProperty",},
@@ -34,7 +34,7 @@
     "path": "folders/Objects/Gameplay.yy",
   },
   "resourceVersion": "1.0",
-  "name": "CTR1Char",
+  "name": "oHarry",
   "tags": [],
   "resourceType": "GMObject",
 }
