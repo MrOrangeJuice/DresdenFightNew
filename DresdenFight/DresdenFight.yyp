@@ -10,6 +10,7 @@
     {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},"order":0,},
     {"id":{"name":"rCityBuilding","path":"rooms/rCityBuilding/rCityBuilding.yy",},"order":2,},
     {"id":{"name":"oHarryIcon","path":"objects/oHarryIcon/oHarryIcon.yy",},"order":0,},
+    {"id":{"name":"OBullet","path":"objects/OBullet/OBullet.yy",},"order":11,},
     {"id":{"name":"sp1BoxJoin","path":"sprites/sp1BoxJoin/sp1BoxJoin.yy",},"order":0,},
     {"id":{"name":"sHarryJump5","path":"sprites/sHarryJump5/sHarryJump5.yy",},"order":1,},
     {"id":{"name":"oBackButton","path":"objects/oBackButton/oBackButton.yy",},"order":1,},
