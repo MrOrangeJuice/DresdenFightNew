@@ -3,4 +3,4 @@
 firingdelay = 0;
 recoil = 0;
 controllerangle = 0;
-var playerRef;
+playerRef = 0; //reference to player, maybe
