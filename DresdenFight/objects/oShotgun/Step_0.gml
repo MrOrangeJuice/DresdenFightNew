@@ -20,7 +20,7 @@ if (gamepad_button_check(0,gp_shoulderrb) && (firingdelay < 0))
 	recoil = 4;
 	firingdelay = 20;
 	for (i = 0; i < 5; i++){
-		with (instance_create_layer(x,y,"Bullets",oBitManBullet))
+		with (instance_create_layer(x,y,"Bullets",OBullet))
 		{
 			speed = 15;
 			direction = other.image_angle + random_range(-10,10);

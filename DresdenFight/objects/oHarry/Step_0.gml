@@ -92,7 +92,7 @@ if (!place_meeting(x,y+1,oWall))
 	switch(global.p1skin)
 	{
 		case 0:
-			sprite_index = sBitMan1Jump;
+			sprite_index = sHarryJump1;
 			break;
 
 	}
@@ -107,7 +107,7 @@ if (!place_meeting(x,y+1,oWall))
 			switch(global.p1skin)
 			{
 				case 0:
-					sprite_index = sBitMan1Idle;
+					sprite_index = sHarryIdle1;
 					break;
 
 			}
@@ -117,7 +117,7 @@ if (!place_meeting(x,y+1,oWall))
 			switch(global.p1skin)
 			{
 				case 0:
-					sprite_index = sBitMan1Run;
+					sprite_index = sHarryJump1;
 					break;
 			}
 		}

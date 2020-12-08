@@ -7,4 +7,5 @@ global.p4health = 100;
 global.p5health = 100;
 global.gw = 1280;
 global.gh = 720;
-//display_set_gui_size(gw,gh);
+UIPadding = 0;
+display_set_gui_size(global.gw,global.gh);
