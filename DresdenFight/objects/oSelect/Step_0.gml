@@ -26,6 +26,7 @@ if(place_meeting(x,y,oHarryIcon))
 				global.p1char = "Harry";
 				if(gamepad_button_check_pressed(player,gp_face1))
 				{
+					audio_play_sound(click1,2654374578,false);
 					global.p1charConfirm = true;
 				}
 			}
@@ -36,6 +37,7 @@ if(place_meeting(x,y,oHarryIcon))
 				global.p2char = "Harry";
 				if(gamepad_button_check_pressed(player,gp_face1))
 				{
+					audio_play_sound(click1,2654374578,false);
 					global.p2charConfirm = true;
 				}
 			}
@@ -46,6 +48,7 @@ if(place_meeting(x,y,oHarryIcon))
 				global.p3char = "Harry";
 				if(gamepad_button_check_pressed(player,gp_face1))
 				{
+					audio_play_sound(click1,2654374578,false);
 					global.p3charConfirm = true;
 				}
 			}
@@ -56,6 +59,7 @@ if(place_meeting(x,y,oHarryIcon))
 				global.p4char = "Harry";
 				if(gamepad_button_check_pressed(player,gp_face1))
 				{
+					audio_play_sound(click1,2654374578,false);
 					global.p4charConfirm = true;
 				}
 			}
@@ -66,6 +70,7 @@ if(place_meeting(x,y,oHarryIcon))
 				global.p5char = "Harry";
 				if(keyboard_check_pressed(ord("P")))
 				{
+					audio_play_sound(click1,2654374578,false);
 					global.p5charConfirm = true;
 				}
 			}
@@ -82,6 +87,7 @@ else if(place_meeting(x,y,oRandomIcon))
 				global.p1char = "Random";
 				if(gamepad_button_check_pressed(player,gp_face1))
 				{
+					audio_play_sound(click1,2654374578,false);
 					global.p1charConfirm = true;
 				}
 			}
@@ -92,6 +98,7 @@ else if(place_meeting(x,y,oRandomIcon))
 				global.p2char = "Random";
 				if(gamepad_button_check_pressed(player,gp_face1))
 				{
+					audio_play_sound(click1,2654374578,false);
 					global.p2charConfirm = true;
 				}
 			}
@@ -102,6 +109,7 @@ else if(place_meeting(x,y,oRandomIcon))
 				global.p3char = "Random";
 				if(gamepad_button_check_pressed(player,gp_face1))
 				{
+					audio_play_sound(click1,2654374578,false);
 					global.p3charConfirm = true;
 				}
 			}
@@ -112,6 +120,7 @@ else if(place_meeting(x,y,oRandomIcon))
 				global.p4char = "Random";
 				if(gamepad_button_check_pressed(player,gp_face1))
 				{
+					audio_play_sound(click1,2654374578,false);
 					global.p4charConfirm = true;
 				}
 			}
@@ -122,6 +131,7 @@ else if(place_meeting(x,y,oRandomIcon))
 				global.p5char = "Random";
 				if(keyboard_check_pressed(ord("P")))
 				{
+					audio_play_sound(click1,2654374578,false);
 					global.p5charConfirm = true;
 				}
 			}
@@ -169,18 +179,21 @@ else
 if(place_meeting(x,y,oStart))
 {
 	oStart.hover = true;
-	if(player == 4)
+	if(oStart.numConfirmed > 1)
 	{
-		if(keyboard_check_pressed(ord("P")))
+		if(player == 4)
 		{
-			SlideTransition(TRANS_MODE.NEXT);
+			if(keyboard_check_pressed(ord("P")))
+			{
+				SlideTransition(TRANS_MODE.NEXT);
+			}
 		}
-	}
-	else
-	{
-		if(gamepad_button_check_pressed(player,gp_face1))
+		else
 		{
-			SlideTransition(TRANS_MODE.NEXT);	
+			if(gamepad_button_check_pressed(player,gp_face1))
+			{
+				SlideTransition(TRANS_MODE.NEXT);	
+			}
 		}
 	}
 }

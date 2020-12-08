@@ -44,6 +44,7 @@
     {"id":{"name":"sHarry4CSS","path":"sprites/sHarry4CSS/sHarry4CSS.yy",},"order":7,},
     {"id":{"name":"sSmg","path":"sprites/sSmg/sSmg.yy",},"order":4,},
     {"id":{"name":"sFadeIn","path":"sprites/sFadeIn/sFadeIn.yy",},"order":0,},
+    {"id":{"name":"click1","path":"sounds/click1/click1.yy",},"order":0,},
     {"id":{"name":"sHarryJump2","path":"sprites/sHarryJump2/sHarryJump2.yy",},"order":1,},
     {"id":{"name":"oNeverNeverIcon","path":"objects/oNeverNeverIcon/oNeverNeverIcon.yy",},"order":2,},
     {"id":{"name":"sStatic","path":"sprites/sStatic/sStatic.yy",},"order":1,},
@@ -57,6 +58,7 @@
     {"id":{"name":"oSelect","path":"objects/oSelect/oSelect.yy",},"order":0,},
     {"id":{"name":"sHarryIdle5","path":"sprites/sHarryIdle5/sHarryIdle5.yy",},"order":0,},
     {"id":{"name":"roguelikeCity_transparent","path":"sprites/roguelikeCity_transparent/roguelikeCity_transparent.yy",},"order":0,},
+    {"id":{"name":"rollover5","path":"sounds/rollover5/rollover5.yy",},"order":1,},
     {"id":{"name":"sHarry5CSS","path":"sprites/sHarry5CSS/sHarry5CSS.yy",},"order":13,},
     {"id":{"name":"oPistolPickup","path":"objects/oPistolPickup/oPistolPickup.yy",},"order":10,},
     {"id":{"name":"rCastle","path":"rooms/rCastle/rCastle.yy",},"order":4,},
@@ -133,6 +135,7 @@
     {"roomId":{"name":"rCityBuilding","path":"rooms/rCityBuilding/rCityBuilding.yy",},},
     {"roomId":{"name":"rCastle","path":"rooms/rCastle/rCastle.yy",},},
     {"roomId":{"name":"rNeverNever","path":"rooms/rNeverNever/rNeverNever.yy",},},
+    {"roomId":{"name":"rCityBuilding","path":"rooms/rCityBuilding/rCityBuilding.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

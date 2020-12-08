@@ -88,6 +88,9 @@ switch(player)
 						break;
 				}
 				break;
+			case "Random":
+				sprite_index = sRandomCSS;
+				break;
 			case "":
 				sprite_index = sEmpty;
 				break;

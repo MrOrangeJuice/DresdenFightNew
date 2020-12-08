@@ -23,15 +23,40 @@ if(global.p5charConfirm)
 }
 
 // If this is the first time spawning, play spawn animation
-if (numConfirmed > 1 && !animation_ended) {
-	image_speed = 1;
+if(hover)
+{
+	if(numConfirmed > 1)
+	{
+		sprite_index = sStartHoverRed;	
+		image_speed = 1;
+	}
+	else
+	{
+		sprite_index = sStart;
+		image_index = 0;
+		image_speed = 0;
+	}
 }
-else if (numConfirmed > 1){
-	image_index = image_number - 1;
-}
-else {
-	image_speed = 0;
-	image_index = 0;
-	// Reset animation
-	animation_ended = false;
+else
+{
+	if(numConfirmed > 1)
+	{
+		if(!animation_ended)
+		{
+			sprite_index = sStart;
+			image_speed = 1;
+		}
+		else
+		{
+			sprite_index = sStart;
+			image_index = image_number - 1;
+			image_speed = 0;
+		}	
+	}
+	else
+	{
+		sprite_index = sStart;
+		image_index = 0;
+		animation_ended = false;	
+	}
 }
