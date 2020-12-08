@@ -55,7 +55,7 @@ if (place_meeting(x,y+1,oWall)) && (key_jump)
 	{
 		vsp = -16;
 	}
-	audio_play_sound(sndJump, 5, false);
+	audio_play_sound(cloth2, 5, false);
 }
 
 // Variable jump height
