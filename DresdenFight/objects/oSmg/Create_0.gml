@@ -3,4 +3,4 @@
 firingdelay = 0;
 recoil = 0;
 controllerangle = 0;
-sprite_index = sBitMan1Gun;
+bulletcounter = 0;
