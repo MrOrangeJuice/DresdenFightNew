@@ -20,6 +20,7 @@
     {"id":{"name":"sp2BoxJoin","path":"sprites/sp2BoxJoin/sp2BoxJoin.yy",},"order":2,},
     {"id":{"name":"oChar","path":"objects/oChar/oChar.yy",},"order":4,},
     {"id":{"name":"oShotgun","path":"objects/oShotgun/oShotgun.yy",},"order":6,},
+    {"id":{"name":"sPSpawn","path":"sprites/sPSpawn/sPSpawn.yy",},"order":2,},
     {"id":{"name":"sStart","path":"sprites/sStart/sStart.yy",},"order":3,},
     {"id":{"name":"Water","path":"sprites/Water/Water.yy",},"order":3,},
     {"id":{"name":"oSelectLevel","path":"objects/oSelectLevel/oSelectLevel.yy",},"order":1,},

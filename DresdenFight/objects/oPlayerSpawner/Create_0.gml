@@ -1,10 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
+image_index = 1;
 switch (player){
  case 0:
 	if (global.p1charConfirm){
 		var p1 = instance_create_layer(x, y, "Players", oHarry);
-		instance_create_layer(x, y, "Guns", oPistol);
+		with (instance_create_layer(x, y, "Guns", oPistol)){
+			playerRef = p1;
+		}
 		switch(global.p1skin)
 		{
 			case 0:
