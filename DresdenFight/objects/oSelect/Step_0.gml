@@ -169,18 +169,21 @@ else
 if(place_meeting(x,y,oStart))
 {
 	oStart.hover = true;
-	if(player == 4)
+	if(oStart.numConfirmed > 1)
 	{
-		if(keyboard_check_pressed(ord("P")))
+		if(player == 4)
 		{
-			SlideTransition(TRANS_MODE.NEXT);
+			if(keyboard_check_pressed(ord("P")))
+			{
+				SlideTransition(TRANS_MODE.NEXT);
+			}
 		}
-	}
-	else
-	{
-		if(gamepad_button_check_pressed(player,gp_face1))
+		else
 		{
-			SlideTransition(TRANS_MODE.NEXT);	
+			if(gamepad_button_check_pressed(player,gp_face1))
+			{
+				SlideTransition(TRANS_MODE.NEXT);	
+			}
 		}
 	}
 }
