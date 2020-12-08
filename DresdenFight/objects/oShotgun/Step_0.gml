@@ -17,6 +17,7 @@ recoil = max(0,recoil - 1);
 
 if (gamepad_button_check(player,gp_shoulderrb) && (firingdelay < 0))
 {
+	audio_play_sound(shotgun,35783963464956730928467,false);
 	recoil = 4;
 	firingdelay = 20;
 	for (i = 0; i < 5; i++){
