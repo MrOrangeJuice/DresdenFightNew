@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.2,
+  "volume": 0.08,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "cloth2.ogg",
-  "duration": 0.420063,
+  "soundFile": "gunshot.ogg",
+  "duration": 1.085,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "cloth2",
+  "name": "gunshot",
   "tags": [],
   "resourceType": "GMSound",
 }

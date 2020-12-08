@@ -20,6 +20,7 @@ recoil = max(0,recoil - 1);
 
 if (gamepad_button_check(0,gp_shoulderrb) && (firingdelay < 0))
 {
+	audio_play_sound(gunshot,35783963464956730928467,false);
 	recoil = 4;
 	firingdelay = 20;
 	with (instance_create_layer(x,y,"Bullets",OBullet))

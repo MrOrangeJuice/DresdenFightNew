@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.2,
+  "volume": 0.21,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "cloth2.ogg",
-  "duration": 0.420063,
+  "soundFile": "shotgun.wav",
+  "duration": 0.696678,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "cloth2",
+  "name": "shotgun",
   "tags": [],
   "resourceType": "GMSound",
 }
