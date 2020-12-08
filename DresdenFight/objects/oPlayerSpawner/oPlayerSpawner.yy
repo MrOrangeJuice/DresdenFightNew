@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sPSpawn",
+    "path": "sprites/sPSpawn/sPSpawn.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

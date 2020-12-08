@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sHarryIdle",
-    "path": "sprites/sHarryIdle/sHarryIdle.yy",
+    "name": "sHarryIdle1",
+    "path": "sprites/sHarryIdle1/sHarryIdle1.yy",
   },
   "solid": false,
   "visible": true,
