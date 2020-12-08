@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-x = CTR1Char.x;
-y = CTR1Char.y;
+x = playerRef.x;
+y = playerRef.y;
 
 
 var controllerh = gamepad_axis_value(0,gp_axisrh);
