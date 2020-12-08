@@ -18,11 +18,13 @@ else
 // Select Level
 if(place_meeting(x,y,oChicagoIcon))
 {
+	
 	var i;
 	for(i = 0; i < 8; i += 1)
 	{
 		if(gamepad_button_check_pressed(i, gp_face1) || keyboard_check_pressed(ord("P")))
-		{
+		{ 	
+			audio_play_sound(click1,2654374578,false);
 			SlideTransition(TRANS_MODE.GOTO,rCityBuilding);		
 		}
 	
@@ -35,6 +37,7 @@ else if(place_meeting(x,y,oCastleIcon))
 	{
 		if(gamepad_button_check_pressed(i, gp_face1) || keyboard_check_pressed(ord("P")))
 		{
+			audio_play_sound(click1,2654374578,false);
 			SlideTransition(TRANS_MODE.GOTO,rCastle);		
 		}
 	
@@ -47,6 +50,7 @@ else if(place_meeting(x,y,oNeverNeverIcon))
 	{
 		if(gamepad_button_check_pressed(i, gp_face1) || keyboard_check_pressed(ord("P")))
 		{
+			audio_play_sound(click1,2654374578,false);
 			SlideTransition(TRANS_MODE.GOTO,rNeverNever);		
 		}
 	
@@ -60,6 +64,7 @@ else if(place_meeting(x,y,oRandomIcon))
 		if(gamepad_button_check_pressed(i, gp_face1) || keyboard_check_pressed(ord("P")))
 		{
 			var r = irandom(2)
+			audio_play_sound(click1,2654374578,false);
 			switch(r)
 			{
 				case 0:
