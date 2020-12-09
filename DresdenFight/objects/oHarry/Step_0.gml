@@ -8,33 +8,33 @@ key_run = 0;
 key_up = 0;
 
 // Gamepad input
-if (gamepad_axis_value(0,gp_axislh) < -0.2 || gamepad_button_check(0,gp_padl) || gamepad_axis_value(4,gp_axislh) < -0.2 || gamepad_button_check(4,gp_padl))
+if (gamepad_axis_value(player,gp_axislh) < -0.2 || gamepad_button_check(player,gp_padl) || gamepad_axis_value(player + 4,gp_axislh) < -0.2 || gamepad_button_check(player + 4,gp_padl))
 {
 	key_left = 1;
 }
 
 
-if (gamepad_axis_value(0,gp_axislh) > 0.2 || gamepad_button_check(0,gp_padr) || gamepad_axis_value(4,gp_axislh) > 0.2 || gamepad_button_check(4,gp_padr))
+if (gamepad_axis_value(player,gp_axislh) > 0.2 || gamepad_button_check(player,gp_padr) || gamepad_axis_value(player + 4,gp_axislh) > 0.2 || gamepad_button_check(player + 4,gp_padr))
 {
 	key_right = 1;
 }
 
-if (gamepad_axis_value(0,gp_axislv) > 0.4 || gamepad_button_check(0,gp_padd) || gamepad_axis_value(4,gp_axislv) > 0.4 || gamepad_button_check(4,gp_padd))
+if (gamepad_axis_value(player,gp_axislv) > 0.4 || gamepad_button_check(player,gp_padd) || gamepad_axis_value(player + 4,gp_axislv) > 0.4 || gamepad_button_check(player + 4,gp_padd))
 {
 	key_duck = 1;
 }
 
-if (gamepad_button_check(0,gp_face1) || gamepad_button_check(4,gp_face1) ||  gamepad_button_check(0,gp_shoulderr) || gamepad_button_check(4,gp_shoulderr))
+if (gamepad_button_check(player,gp_face1) || gamepad_button_check(player + 4,gp_face1) ||  gamepad_button_check(player,gp_shoulderr) || gamepad_button_check(player + 4,gp_shoulderr))
 {
 	key_jump = 1;
 }
 
-if (gamepad_button_check(0,gp_face3) || gamepad_button_check(4,gp_face2) || gamepad_button_check(4,gp_face3) || gamepad_button_check(4,gp_face2) || gamepad_button_check(0,gp_shoulderl) || gamepad_button_check(4,gp_shoulderl))
+if (gamepad_button_check(player,gp_face3) || gamepad_button_check(player + 4,gp_face2) || gamepad_button_check(player + 4,gp_face3) || gamepad_button_check(player + 4,gp_face2) || gamepad_button_check(player,gp_shoulderl) || gamepad_button_check(player + 4,gp_shoulderl))
 {
 	key_run = 1;
 }
 
-if (gamepad_axis_value(0,gp_axislv) < -0.4 || gamepad_button_check(0,gp_padu) || gamepad_axis_value(4,gp_axislv) < -0.4 || gamepad_button_check(4,gp_padu))
+if (gamepad_axis_value(player,gp_axislv) < -0.4 || gamepad_button_check(player,gp_padu) || gamepad_axis_value(player + 4,gp_axislv) < -0.4 || gamepad_button_check(player + 4,gp_padu))
 {
 	key_up = 1;
 }
@@ -55,7 +55,7 @@ if (place_meeting(x,y+1,oWall)) && (key_jump)
 	{
 		vsp = -16;
 	}
-	audio_play_sound(sndJump, 5, false);
+	audio_play_sound(cloth2, 5, false);
 }
 
 // Variable jump height
