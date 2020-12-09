@@ -44,6 +44,7 @@
     {"id":{"name":"oTitleStart","path":"objects/oTitleStart/oTitleStart.yy",},"order":0,},
     {"id":{"name":"Background","path":"sprites/Background/Background.yy",},"order":4,},
     {"id":{"name":"sp2Select","path":"sprites/sp2Select/sp2Select.yy",},"order":1,},
+    {"id":{"name":"shWhite","path":"shaders/shWhite/shWhite.yy",},"order":0,},
     {"id":{"name":"sBars","path":"sprites/sBars/sBars.yy",},"order":1,},
     {"id":{"name":"sp1Background","path":"sprites/sp1Background/sp1Background.yy",},"order":9,},
     {"id":{"name":"sCity","path":"sprites/sCity/sCity.yy",},"order":0,},
