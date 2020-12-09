@@ -30,7 +30,7 @@ if ((gamepad_button_check(player,gp_shoulderrb) || (player == 4 && mouse_check_b
 			with (bullet)
 			{
 				speed = 15;
-				direction = other.image_angle + random_range(-3,3);
+				direction = other.image_angle + random_range(-10,10);
 				image_angle = direction;
 			}
 			bullet.player = self.player;
