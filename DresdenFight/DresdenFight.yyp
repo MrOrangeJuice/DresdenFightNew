@@ -17,6 +17,7 @@
     {"id":{"name":"sTree","path":"sprites/sTree/sTree.yy",},"order":2,},
     {"id":{"name":"rLevelSelect","path":"rooms/rLevelSelect/rLevelSelect.yy",},"order":5,},
     {"id":{"name":"sP5Win","path":"sprites/sP5Win/sP5Win.yy",},"order":9,},
+    {"id":{"name":"sWinRestart","path":"sprites/sWinRestart/sWinRestart.yy",},"order":11,},
     {"id":{"name":"sNeverNever","path":"sprites/sNeverNever/sNeverNever.yy",},"order":1,},
     {"id":{"name":"sTitleStart","path":"sprites/sTitleStart/sTitleStart.yy",},"order":1,},
     {"id":{"name":"sHarryJump3","path":"sprites/sHarryJump3/sHarryJump3.yy",},"order":1,},
