@@ -4,30 +4,37 @@ x = playerRef.x;
 y = playerRef.y;
 
 
-var controllerh = gamepad_axis_value(player,gp_axisrh);
-var controllerv = gamepad_axis_value(player,gp_axisrv);
-if (abs(controllerh) > 0.2) || (abs(controllerv) > 0.2)
-{
-	controllerangle = point_direction(0,0,controllerh,controllerv)
+if (player == 4){
+	image_angle = point_direction(x,y,mouse_x,mouse_y);
 }
-image_angle = controllerangle;
+else {
+	var controllerh = gamepad_axis_value(player,gp_axisrh);
+	var controllerv = gamepad_axis_value(player,gp_axisrv);
+	if (abs(controllerh) > 0.2) || (abs(controllerv) > 0.2)
+	{
+		controllerangle = point_direction(0,0,controllerh,controllerv)
+	}
+	image_angle = controllerangle;
+}
 
 firingdelay = firingdelay - 1;
 recoil = max(0,recoil - 1);
 
-if (gamepad_button_check(player,gp_shoulderrb) && (firingdelay < 0))
+if ((gamepad_button_check(player,gp_shoulderrb) || (player == 4 && mouse_check_button(mb_left))) && (firingdelay < 0))
 {
 	audio_play_sound(gunshot,35783963464956730928467,false);
-	recoil = 4;
-	firingdelay = 20;
-	with (instance_create_layer(x,y,"Bullets",OBullet))
-	{
-		speed = 15;
-		direction = other.image_angle + random_range(-3,3);
-		image_angle = direction;
-		bulletcounter = 3;
-		alarm[0] = 1; //bullet creation code is here for burst fire
-	}
+	recoil = 5;
+	firingdelay = 40;
+	var bullet = instance_create_layer(x,y,"Bullets",OBullet);
+		with (bullet)
+		{
+			speed = 15;
+			direction = other.image_angle + random_range(-3,3);
+			image_angle = direction;
+		}
+	bullet.player = self.player;
+	bulletcounter = 2;
+	alarm[0] = room_speed / 10; //bullet creation code is here for burst fire
 }
 
 x = x - lengthdir_x(recoil,image_angle);

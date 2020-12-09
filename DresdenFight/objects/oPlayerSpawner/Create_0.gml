@@ -6,10 +6,11 @@ switch (player){
 	if (global.p1charConfirm){
 		p1 = instance_create_layer(x, y, "Players", oHarry);
 		p1.player = player;
-		oCamera.p1 = p1;
+		//oCamera.p1 = p1;
 		var p1gun = instance_create_layer(x, y, "Guns", oPistol);
 		p1gun.playerRef = p1;
 		p1gun.player = player;
+		p1.gunRef = p1gun;
 		switch(global.p1skin)
 		{
 			case 0:
@@ -37,7 +38,8 @@ switch (player){
 		var p2gun = instance_create_layer(x, y, "Guns", oPistol);
 		p2gun.playerRef = p2;
 		p2gun.player = player;
-		oCamera.p2 = p2;
+		//oCamera.p2 = p2;
+		p2.gunRef = p2gun;
 		switch(global.p2skin)
 		{
 			case 0:
@@ -65,7 +67,8 @@ switch (player){
 		var p3gun = instance_create_layer(x, y, "Guns", oPistol);
 		p3gun.playerRef = p3;
 		p3gun.player = player;
-		oCamera.p3 = p3;
+		//oCamera.p3 = p3;
+		p3.gunRef = p3gun;
 		switch(global.p3skin)
 		{
 			case 0:
@@ -93,7 +96,8 @@ switch (player){
 		var p4gun = instance_create_layer(x, y, "Guns", oPistol);
 		p4gun.playerRef = p4;
 		p4gun.player = player;
-		oCamera.p4 = p4;
+		//oCamera.p4 = p4;
+		p4.gunRef = p4gun;
 		switch(global.p4skin)
 		{
 			case 0:
@@ -121,7 +125,8 @@ switch (player){
 		var p5gun = instance_create_layer(x, y, "Guns", oPistol);
 		p5gun.playerRef = p5;
 		p5gun.player = player;
-		oCamera.p5 = p5;
+		//oCamera.p5 = p5;
+		p5.gunRef = p5gun;
 		switch(global.p5skin)
 		{
 			case 0:
