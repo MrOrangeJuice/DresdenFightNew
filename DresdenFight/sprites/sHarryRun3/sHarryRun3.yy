@@ -36,6 +36,12 @@
     {"compositeImage":{"FrameId":{"name":"a0672301-8f4b-4c91-9e90-2accd40fd523","path":"sprites/sHarryRun3/sHarryRun3.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"a0672301-8f4b-4c91-9e90-2accd40fd523","path":"sprites/sHarryRun3/sHarryRun3.yy",},"LayerId":{"name":"4307c6cc-a762-4bb6-9d20-592b9cff6edb","path":"sprites/sHarryRun3/sHarryRun3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sHarryRun3","path":"sprites/sHarryRun3/sHarryRun3.yy",},"resourceVersion":"1.0","name":"a0672301-8f4b-4c91-9e90-2accd40fd523","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ea3c11e4-7f27-4cba-a39a-2e9b54f2f163","path":"sprites/sHarryRun3/sHarryRun3.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ea3c11e4-7f27-4cba-a39a-2e9b54f2f163","path":"sprites/sHarryRun3/sHarryRun3.yy",},"LayerId":{"name":"4307c6cc-a762-4bb6-9d20-592b9cff6edb","path":"sprites/sHarryRun3/sHarryRun3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sHarryRun3","path":"sprites/sHarryRun3/sHarryRun3.yy",},"resourceVersion":"1.0","name":"ea3c11e4-7f27-4cba-a39a-2e9b54f2f163","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"556cdecf-977b-4d02-856b-26007eae2b80","path":"sprites/sHarryRun3/sHarryRun3.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"556cdecf-977b-4d02-856b-26007eae2b80","path":"sprites/sHarryRun3/sHarryRun3.yy",},"LayerId":{"name":"4307c6cc-a762-4bb6-9d20-592b9cff6edb","path":"sprites/sHarryRun3/sHarryRun3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sHarryRun3","path":"sprites/sHarryRun3/sHarryRun3.yy",},"resourceVersion":"1.0","name":"556cdecf-977b-4d02-856b-26007eae2b80","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sHarryRun3","path":"sprites/sHarryRun3/sHarryRun3.yy",},
@@ -45,7 +51,7 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 4.0,
+    "length": 6.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
@@ -54,6 +60,8 @@
             {"id":"7e5fca0d-d271-4eeb-9ff2-b3bb6012b8be","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"af3671d3-21a1-4ef3-80cc-72aa53e6ff6e","path":"sprites/sHarryRun3/sHarryRun3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b8b3d478-7730-4f0d-803e-fd31bd6f1182","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"981c55b1-3292-42cd-bd56-e03a4cbb85a8","path":"sprites/sHarryRun3/sHarryRun3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f44f4132-5a6d-409c-8084-be789a427391","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a0672301-8f4b-4c91-9e90-2accd40fd523","path":"sprites/sHarryRun3/sHarryRun3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"cb34d467-01f4-49c4-9b96-58dbb969d156","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ea3c11e4-7f27-4cba-a39a-2e9b54f2f163","path":"sprites/sHarryRun3/sHarryRun3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"cdc5660a-25ce-4694-ae6b-53a1768b82f4","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"556cdecf-977b-4d02-856b-26007eae2b80","path":"sprites/sHarryRun3/sHarryRun3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
