@@ -24,7 +24,7 @@ if ((gamepad_button_check(player,gp_shoulderrb) || (player == 4 && mouse_check_b
 {
 	audio_play_sound(gunshot,35783963464956730928467,false);
 	recoil = 5;
-	firingdelay = 40;
+	firingdelay = 50;
 	var bullet = instance_create_layer(x,y,"Bullets",OBullet);
 		with (bullet)
 		{
