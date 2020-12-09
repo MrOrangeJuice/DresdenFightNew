@@ -434,3 +434,41 @@ if (gunRef.image_angle > 90 && gunRef.image_angle < 270) {
 else {
 	image_xscale = 1;	
 }
+
+switch (player){
+	case 0:
+		if (global.p1health == 0)
+		{
+			instance_destroy(gunRef);
+			instance_destroy();
+		}
+	break;
+	case 1:
+		if (global.p2health == 0)
+		{
+			instance_destroy(gunRef);
+			instance_destroy();
+		}
+	break;
+	case 2:
+		if (global.p3health == 0)
+		{
+			instance_destroy(gunRef);
+			instance_destroy();
+		}
+	break;
+	case 3:
+		if (global.p4health == 0)
+		{
+			instance_destroy(gunRef);
+			instance_destroy();
+		}
+	break;
+	case 4:
+		if (global.p5health == 0)
+		{
+			instance_destroy(gunRef);
+			instance_destroy();
+		}
+	break;
+}
