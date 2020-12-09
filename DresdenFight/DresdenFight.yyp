@@ -67,6 +67,7 @@
     {"id":{"name":"sHarryIdle5","path":"sprites/sHarryIdle5/sHarryIdle5.yy",},"order":0,},
     {"id":{"name":"roguelikeCity_transparent","path":"sprites/roguelikeCity_transparent/roguelikeCity_transparent.yy",},"order":0,},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":4,},
+    {"id":{"name":"oWinner","path":"objects/oWinner/oWinner.yy",},"order":4,},
     {"id":{"name":"rollover5","path":"sounds/rollover5/rollover5.yy",},"order":1,},
     {"id":{"name":"sHarry5CSS","path":"sprites/sHarry5CSS/sHarry5CSS.yy",},"order":13,},
     {"id":{"name":"oPistolPickup","path":"objects/oPistolPickup/oPistolPickup.yy",},"order":10,},
