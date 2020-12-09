@@ -23,14 +23,14 @@ recoil = max(0,recoil - 1);
 if ((gamepad_button_check(player,gp_shoulderrb) || (player == 4 && mouse_check_button(mb_left))) && (firingdelay < 0))
 {
 	audio_play_sound(shotgun,35783963464956730928467,false);
-	recoil = 4;
-	firingdelay = 20;
+	recoil = 10;
+	firingdelay = 100;
 	for (i = 0; i < 5; i++){
 			var bullet = instance_create_layer(x,y,"Bullets",OBullet);
 			with (bullet)
 			{
 				speed = 15;
-				direction = other.image_angle + random_range(-3,3);
+				direction = other.image_angle + random_range(-10,10);
 				image_angle = direction;
 			}
 			bullet.player = self.player;
