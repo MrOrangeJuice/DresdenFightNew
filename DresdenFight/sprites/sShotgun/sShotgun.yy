@@ -2,19 +2,19 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 0,
+  "origin": 9,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 48,
-  "bbox_right": 111,
+  "bbox_left": 28,
+  "bbox_right": 91,
   "bbox_top": 4,
   "bbox_bottom": 27,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 112,
+  "width": 92,
   "height": 32,
   "textureGroupId": {
     "name": "Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"dab9b174-4ae8-45a5-910f-ff85671e5bbe","path":"sprites/sShotgun/sShotgun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dab9b174-4ae8-45a5-910f-ff85671e5bbe","path":"sprites/sShotgun/sShotgun.yy",},"LayerId":{"name":"0a9d80dc-6d9f-4789-8de4-87c96bdcac7c","path":"sprites/sShotgun/sShotgun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sShotgun","path":"sprites/sShotgun/sShotgun.yy",},"resourceVersion":"1.0","name":"dab9b174-4ae8-45a5-910f-ff85671e5bbe","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b39755e9-1fd5-467d-bb73-68eb2324ac62","path":"sprites/sShotgun/sShotgun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b39755e9-1fd5-467d-bb73-68eb2324ac62","path":"sprites/sShotgun/sShotgun.yy",},"LayerId":{"name":"fb2a6bf4-bdf1-42af-9430-412779f42bb8","path":"sprites/sShotgun/sShotgun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sShotgun","path":"sprites/sShotgun/sShotgun.yy",},"resourceVersion":"1.0","name":"b39755e9-1fd5-467d-bb73-68eb2324ac62","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sShotgun","path":"sprites/sShotgun/sShotgun.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f5fadb86-6ba2-4c1f-8a50-f6837d85e93e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dab9b174-4ae8-45a5-910f-ff85671e5bbe","path":"sprites/sShotgun/sShotgun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c16c2eb6-c881-47f5-b344-e1f9e94a3c16","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b39755e9-1fd5-467d-bb73-68eb2324ac62","path":"sprites/sShotgun/sShotgun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -55,7 +55,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 0,
-    "yorigin": 0,
+    "yorigin": 12,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sShotgun","path":"sprites/sShotgun/sShotgun.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0a9d80dc-6d9f-4789-8de4-87c96bdcac7c","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fb2a6bf4-bdf1-42af-9430-412779f42bb8","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Pickups",
