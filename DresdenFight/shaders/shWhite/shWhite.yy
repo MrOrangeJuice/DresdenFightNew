@@ -2,7 +2,7 @@
   "type": 1,
   "parent": {
     "name": "Shaders",
-    "path": "folders/Sequences/Shaders.yy",
+    "path": "folders/Shaders.yy",
   },
   "resourceVersion": "1.0",
   "name": "shWhite",
