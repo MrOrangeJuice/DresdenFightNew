@@ -12,31 +12,47 @@ if (gamepad_axis_value(player,gp_axislh) < -0.2 || gamepad_button_check(player,g
 {
 	key_left = 1;
 }
+else if (player == 4){
+	key_left = keyboard_check(ord("A"));
+}
 
 
 if (gamepad_axis_value(player,gp_axislh) > 0.2 || gamepad_button_check(player,gp_padr) || gamepad_axis_value(player + 4,gp_axislh) > 0.2 || gamepad_button_check(player + 4,gp_padr))
 {
 	key_right = 1;
 }
+else if (player == 4){
+	key_right = keyboard_check(ord("D"));
+}
 
 if (gamepad_axis_value(player,gp_axislv) > 0.4 || gamepad_button_check(player,gp_padd) || gamepad_axis_value(player + 4,gp_axislv) > 0.4 || gamepad_button_check(player + 4,gp_padd))
 {
 	key_duck = 1;
+}else if (player == 4){
+	key_jump = keyboard_check(vk_space);
 }
 
 if (gamepad_button_check(player,gp_face1) || gamepad_button_check(player + 4,gp_face1) ||  gamepad_button_check(player,gp_shoulderr) || gamepad_button_check(player + 4,gp_shoulderr))
 {
 	key_jump = 1;
+}else if (player == 4){
+	key_duck = keyboard_check(ord("S"));
 }
 
 if (gamepad_button_check(player,gp_face3) || gamepad_button_check(player + 4,gp_face2) || gamepad_button_check(player + 4,gp_face3) || gamepad_button_check(player + 4,gp_face2) || gamepad_button_check(player,gp_shoulderl) || gamepad_button_check(player + 4,gp_shoulderl))
 {
 	key_run = 1;
 }
+else if (player == 4){
+	key_run = keyboard_check(vk_lshift);
+}
 
 if (gamepad_axis_value(player,gp_axislv) < -0.4 || gamepad_button_check(player,gp_padu) || gamepad_axis_value(player + 4,gp_axislv) < -0.4 || gamepad_button_check(player + 4,gp_padu))
 {
 	key_up = 1;
+}
+else if (player == 4){
+	key_up = keyboard_check(ord("W"));
 }
 
 var move = key_right - key_left;
