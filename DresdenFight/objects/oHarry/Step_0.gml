@@ -428,4 +428,9 @@ if (!place_meeting(x,y+1,oWall))
 		}
 	}
 
-if (hsp != 0) image_xscale = sign(hsp);
+if (gunRef.image_angle > 90 && gunRef.image_angle < 270) {
+	image_xscale = -1;
+}
+else {
+	image_xscale = 1;	
+}

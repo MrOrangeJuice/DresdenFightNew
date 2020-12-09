@@ -27,12 +27,14 @@ if ((gamepad_button_check(player,gp_shoulderrb) || (player == 4 && mouse_check_b
 	audio_play_sound(gunshot,35783963464956730928467,false);
 	recoil = 4;
 	firingdelay = 20;
-	with (instance_create_layer(x,y,"Bullets",OBullet))
+	var bullet = instance_create_layer(x,y,"Bullets",OBullet);
+	with (bullet)
 	{
 		speed = 15;
 		direction = other.image_angle + random_range(-3,3);
 		image_angle = direction;
 	}
+	bullet.player = self.player;
 }
 
 x = x - lengthdir_x(recoil,image_angle);
