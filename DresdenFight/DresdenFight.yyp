@@ -54,6 +54,7 @@
     {"id":{"name":"click1","path":"sounds/click1/click1.yy",},"order":0,},
     {"id":{"name":"sHarryJump2","path":"sprites/sHarryJump2/sHarryJump2.yy",},"order":1,},
     {"id":{"name":"oNeverNeverIcon","path":"objects/oNeverNeverIcon/oNeverNeverIcon.yy",},"order":2,},
+    {"id":{"name":"oWinRestart","path":"objects/oWinRestart/oWinRestart.yy",},"order":5,},
     {"id":{"name":"sStatic","path":"sprites/sStatic/sStatic.yy",},"order":1,},
     {"id":{"name":"sP4Win","path":"sprites/sP4Win/sP4Win.yy",},"order":8,},
     {"id":{"name":"sp5BoxJoin","path":"sprites/sp5BoxJoin/sp5BoxJoin.yy",},"order":9,},
