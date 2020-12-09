@@ -27,10 +27,12 @@
     {"compositeImage":{"FrameId":{"name":"e390b65d-2f19-4e8c-b79d-1417fb311a96","path":"sprites/sCity/sCity.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"e390b65d-2f19-4e8c-b79d-1417fb311a96","path":"sprites/sCity/sCity.yy",},"LayerId":{"name":"7c079c45-37aa-4858-93cd-f53348036c22","path":"sprites/sCity/sCity.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"e390b65d-2f19-4e8c-b79d-1417fb311a96","path":"sprites/sCity/sCity.yy",},"LayerId":{"name":"da22db60-35a4-413a-a26b-3d7a73a1b6e6","path":"sprites/sCity/sCity.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"e390b65d-2f19-4e8c-b79d-1417fb311a96","path":"sprites/sCity/sCity.yy",},"LayerId":{"name":"990655a6-39f1-48ec-baf9-404c919002f2","path":"sprites/sCity/sCity.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sCity","path":"sprites/sCity/sCity.yy",},"resourceVersion":"1.0","name":"e390b65d-2f19-4e8c-b79d-1417fb311a96","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"4896c453-d21d-45e4-9501-b41e66acdb52","path":"sprites/sCity/sCity.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"4896c453-d21d-45e4-9501-b41e66acdb52","path":"sprites/sCity/sCity.yy",},"LayerId":{"name":"7c079c45-37aa-4858-93cd-f53348036c22","path":"sprites/sCity/sCity.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"4896c453-d21d-45e4-9501-b41e66acdb52","path":"sprites/sCity/sCity.yy",},"LayerId":{"name":"da22db60-35a4-413a-a26b-3d7a73a1b6e6","path":"sprites/sCity/sCity.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"4896c453-d21d-45e4-9501-b41e66acdb52","path":"sprites/sCity/sCity.yy",},"LayerId":{"name":"990655a6-39f1-48ec-baf9-404c919002f2","path":"sprites/sCity/sCity.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sCity","path":"sprites/sCity/sCity.yy",},"resourceVersion":"1.0","name":"4896c453-d21d-45e4-9501-b41e66acdb52","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -71,8 +73,9 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"7c079c45-37aa-4858-93cd-f53348036c22","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"7c079c45-37aa-4858-93cd-f53348036c22","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"da22db60-35a4-413a-a26b-3d7a73a1b6e6","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2","resourceVersion":"1.0","name":"990655a6-39f1-48ec-baf9-404c919002f2","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Level Select Icons",
