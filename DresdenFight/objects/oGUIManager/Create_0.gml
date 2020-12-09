@@ -9,3 +9,8 @@ global.gw = 1280;
 global.gh = 720;
 UIPadding = 0;
 display_set_gui_size(global.gw,global.gh);
+p1dead = false;
+p2dead = false;
+p3dead = false;
+p4dead = false;
+p5dead = false;
