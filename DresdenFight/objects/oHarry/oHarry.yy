@@ -23,6 +23,9 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oHarry","path":"objects/oHarry/oHarry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oHarry","path":"objects/oHarry/oHarry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPistolPickup","path":"objects/oPistolPickup/oPistolPickup.yy",},"parent":{"name":"oHarry","path":"objects/oHarry/oHarry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oShotgunPickup","path":"objects/oShotgunPickup/oShotgunPickup.yy",},"parent":{"name":"oHarry","path":"objects/oHarry/oHarry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oSmgPickup","path":"objects/oSmgPickup/oSmgPickup.yy",},"parent":{"name":"oHarry","path":"objects/oHarry/oHarry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":1,"value":"100","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"health","tags":[],"resourceType":"GMObjectProperty",},
