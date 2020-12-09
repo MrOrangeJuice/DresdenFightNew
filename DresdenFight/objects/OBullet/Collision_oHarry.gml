@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if(other.player != self.player)
 {
-	
+	other.flash = 5;
 	switch(other.player)
 	{
 		case 0:
