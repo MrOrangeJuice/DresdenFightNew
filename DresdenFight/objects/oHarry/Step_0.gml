@@ -12,31 +12,47 @@ if (gamepad_axis_value(player,gp_axislh) < -0.2 || gamepad_button_check(player,g
 {
 	key_left = 1;
 }
+else if (player == 4){
+	key_left = keyboard_check(ord("A"));
+}
 
 
 if (gamepad_axis_value(player,gp_axislh) > 0.2 || gamepad_button_check(player,gp_padr) || gamepad_axis_value(player + 4,gp_axislh) > 0.2 || gamepad_button_check(player + 4,gp_padr))
 {
 	key_right = 1;
 }
+else if (player == 4){
+	key_right = keyboard_check(ord("D"));
+}
 
 if (gamepad_axis_value(player,gp_axislv) > 0.4 || gamepad_button_check(player,gp_padd) || gamepad_axis_value(player + 4,gp_axislv) > 0.4 || gamepad_button_check(player + 4,gp_padd))
 {
 	key_duck = 1;
+}else if (player == 4){
+	key_jump = keyboard_check(vk_space);
 }
 
 if (gamepad_button_check(player,gp_face1) || gamepad_button_check(player + 4,gp_face1) ||  gamepad_button_check(player,gp_shoulderr) || gamepad_button_check(player + 4,gp_shoulderr))
 {
 	key_jump = 1;
+}else if (player == 4){
+	key_duck = keyboard_check(ord("S"));
 }
 
 if (gamepad_button_check(player,gp_face3) || gamepad_button_check(player + 4,gp_face2) || gamepad_button_check(player + 4,gp_face3) || gamepad_button_check(player + 4,gp_face2) || gamepad_button_check(player,gp_shoulderl) || gamepad_button_check(player + 4,gp_shoulderl))
 {
 	key_run = 1;
 }
+else if (player == 4){
+	key_run = keyboard_check(vk_lshift);
+}
 
 if (gamepad_axis_value(player,gp_axislv) < -0.4 || gamepad_button_check(player,gp_padu) || gamepad_axis_value(player + 4,gp_axislv) < -0.4 || gamepad_button_check(player + 4,gp_padu))
 {
 	key_up = 1;
+}
+else if (player == 4){
+	key_up = keyboard_check(ord("W"));
 }
 
 var move = key_right - key_left;
@@ -89,12 +105,108 @@ y = y + vsp;
 // Animation
 if (!place_meeting(x,y+1,oWall))
 {
-	switch(global.p1skin)
+	switch(player)
 	{
 		case 0:
-			sprite_index = sHarryJump1;
+			switch(global.p1skin)
+			{
+				case 0:
+					sprite_index = sHarryJump1;
+					break;
+				case 1:
+					sprite_index = sHarryJump2;
+					break;
+				case 2:
+					sprite_index = sHarryJump3;
+					break;
+				case 3:
+					sprite_index = sHarryJump4;
+					break;
+				case 4:
+					sprite_index = sHarryJump5;
+					break;
+			}
 			break;
-
+		case 1:
+			switch(global.p2skin)
+			{
+				case 0:
+					sprite_index = sHarryJump1;
+					break;
+				case 1:
+					sprite_index = sHarryJump2;
+					break;
+				case 2:
+					sprite_index = sHarryJump3;
+					break;
+				case 3:
+					sprite_index = sHarryJump4;
+					break;
+				case 4:
+					sprite_index = sHarryJump5;
+					break;
+			}
+			break;
+		case 2:
+			switch(global.p3skin)
+			{
+				case 0:
+					sprite_index = sHarryJump1;
+					break;
+				case 1:
+					sprite_index = sHarryJump2;
+					break;
+				case 2:
+					sprite_index = sHarryJump3;
+					break;
+				case 3:
+					sprite_index = sHarryJump4;
+					break;
+				case 4:
+					sprite_index = sHarryJump5;
+					break;
+			}
+			break;
+		case 3:
+			switch(global.p4skin)
+			{
+				case 0:
+					sprite_index = sHarryJump1;
+					break;
+				case 1:
+					sprite_index = sHarryJump2;
+					break;
+				case 2:
+					sprite_index = sHarryJump3;
+					break;
+				case 3:
+					sprite_index = sHarryJump4;
+					break;
+				case 4:
+					sprite_index = sHarryJump5;
+					break;
+			}
+			break;
+		case 4:
+			switch(global.p5skin)
+			{
+				case 0:
+					sprite_index = sHarryJump1;
+					break;
+				case 1:
+					sprite_index = sHarryJump2;
+					break;
+				case 2:
+					sprite_index = sHarryJump3;
+					break;
+				case 3:
+					sprite_index = sHarryJump4;
+					break;
+				case 4:
+					sprite_index = sHarryJump5;
+					break;
+			}
+			break;
 	}
 	image_speed = 0;	
 	if (sign(vsp) > 0) image_index = 1; else image_index = 0;
@@ -104,20 +216,213 @@ if (!place_meeting(x,y+1,oWall))
 		image_speed = 1;
 		if (sign(hsp) == 0)
 		{
-			switch(global.p1skin)
+			switch(player)
 			{
 				case 0:
-					sprite_index = sHarryIdle1;
+					switch(global.p1skin)
+					{
+						case 0:
+							sprite_index = sHarryIdle1;
+							break;
+						case 1:
+							sprite_index = sHarryIdle2;
+							break;
+						case 2:
+							sprite_index = sHarryIdle3;
+							break;
+						case 3:
+							sprite_index = sHarryIdle4;
+							break;
+						case 4:
+							sprite_index = sHarryIdle5;
+							break;
+					}
 					break;
-
+				case 1:
+					switch(global.p2skin)
+					{
+						case 0:
+							sprite_index = sHarryIdle1;
+							break;
+						case 1:
+							sprite_index = sHarryIdle2;
+							break;
+						case 2:
+							sprite_index = sHarryIdle3;
+							break;
+						case 3:
+							sprite_index = sHarryIdle4;
+							break;
+						case 4:
+							sprite_index = sHarryIdle5;
+							break;
+					}
+					break;
+				case 2:
+					switch(global.p3skin)
+					{
+						case 0:
+							sprite_index = sHarryIdle1;
+							break;
+						case 1:
+							sprite_index = sHarryIdle2;
+							break;
+						case 2:
+							sprite_index = sHarryIdle3;
+							break;
+						case 3:
+							sprite_index = sHarryIdle4;
+							break;
+						case 4:
+							sprite_index = sHarryIdle5;
+							break;
+					}
+					break;
+				case 3:
+					switch(global.p4skin)
+					{
+						case 0:
+							sprite_index = sHarryIdle1;
+							break;
+						case 1:
+							sprite_index = sHarryIdle2;
+							break;
+						case 2:
+							sprite_index = sHarryIdle3;
+							break;
+						case 3:
+							sprite_index = sHarryIdle4;
+							break;
+						case 4:
+							sprite_index = sHarryIdle5;
+							break;
+					}
+					break;
+				case 4:
+					switch(global.p5skin)
+					{
+						case 0:
+							sprite_index = sHarryIdle1;
+							break;
+						case 1:
+							sprite_index = sHarryIdle2;
+							break;
+						case 2:
+							sprite_index = sHarryIdle3;
+							break;
+						case 3:
+							sprite_index = sHarryIdle4;
+							break;
+						case 4:
+							sprite_index = sHarryIdle5;
+							break;
+					}
+					break;
 			}
 		}
 		else
 		{
-			switch(global.p1skin)
+			switch(player)
 			{
 				case 0:
-					sprite_index = sHarryJump1;
+					switch(global.p1skin)
+					{
+						case 0:
+							sprite_index = sHarryRun1;
+							break;
+						case 1:
+							sprite_index = sHarryRun2;
+							break;
+						case 2:
+							sprite_index = sHarryRun3;
+							break;
+						case 3:
+							sprite_index = sHarryRun4;
+							break;
+						case 4:
+							sprite_index = sHarryRun5;
+							break;
+					}
+					break;
+				case 1:
+					switch(global.p2skin)
+					{
+						case 0:
+							sprite_index = sHarryRun1;
+							break;
+						case 1:
+							sprite_index = sHarryRun2;
+							break;
+						case 2:
+							sprite_index = sHarryRun3;
+							break;
+						case 3:
+							sprite_index = sHarryRun4;
+							break;
+						case 4:
+							sprite_index = sHarryRun5;
+							break;
+					}
+					break;
+				case 2:
+					switch(global.p3skin)
+					{
+						case 0:
+							sprite_index = sHarryRun1;
+							break;
+						case 1:
+							sprite_index = sHarryRun2;
+							break;
+						case 2:
+							sprite_index = sHarryRun3;
+							break;
+						case 3:
+							sprite_index = sHarryRun4;
+							break;
+						case 4:
+							sprite_index = sHarryRun5;
+							break;
+					}
+					break;
+				case 3:
+					switch(global.p4skin)
+					{
+						case 0:
+							sprite_index = sHarryRun1;
+							break;
+						case 1:
+							sprite_index = sHarryRun2;
+							break;
+						case 2:
+							sprite_index = sHarryRun3;
+							break;
+						case 3:
+							sprite_index = sHarryRun4;
+							break;
+						case 4:
+							sprite_index = sHarryRun5;
+							break;
+					}
+					break;
+				case 4:
+					switch(global.p5skin)
+					{
+						case 0:
+							sprite_index = sHarryRun1;
+							break;
+						case 1:
+							sprite_index = sHarryRun2;
+							break;
+						case 2:
+							sprite_index = sHarryRun3;
+							break;
+						case 3:
+							sprite_index = sHarryRun4;
+							break;
+						case 4:
+							sprite_index = sHarryRun5;
+							break;
+					}
 					break;
 			}
 		}
