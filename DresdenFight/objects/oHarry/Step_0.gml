@@ -53,7 +53,7 @@ if (place_meeting(x,y+1,oWall)) && (key_jump)
 	}
 	else 
 	{
-		vsp = -16;
+		vsp = -18;
 	}
 	audio_play_sound(cloth2, 5, false);
 }
