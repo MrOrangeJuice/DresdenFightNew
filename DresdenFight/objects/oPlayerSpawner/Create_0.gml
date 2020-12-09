@@ -88,7 +88,7 @@ switch (player){
 		var p4 = instance_create_layer(x, y, "Players", oHarry);
 		p4.player = player;
 		var p4gun = instance_create_layer(x, y, "Guns", oPistol)
-		p4gun.playerRef = global.p4char;
+		p4gun.playerRef = p4;
 		p4gun.player = player;
 		switch(global.p4skin)
 		{
