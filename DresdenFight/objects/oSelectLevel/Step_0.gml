@@ -63,17 +63,14 @@ else if(place_meeting(x,y,oRandomIcon))
 	{
 		if(gamepad_button_check_pressed(i, gp_face1) || keyboard_check_pressed(ord("P")))
 		{
-			var r = irandom(2)
+			var r = irandom(1)
 			audio_play_sound(click1,2654374578,false);
 			switch(r)
 			{
 				case 0:
-					SlideTransition(TRANS_MODE.GOTO,rCastle);		
-				break;
-				case 1:
 					SlideTransition(TRANS_MODE.GOTO,rNeverNever);		
 				break;
-				case 2:
+				case 1:
 					SlideTransition(TRANS_MODE.GOTO,rCityBuilding);
 				break;
 			}
